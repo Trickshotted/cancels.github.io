@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Uploader</title>
+        <script src="https://cdn.jsdelivr.net/npm/faunadb@latest/dist/faunadb.js"></script>
+        <script src="pasteHandler.js"></script>
+    </head>
+    <body>
+        <h1>Upload</h1>
+        <label style="font-size: 18px;">Title</label><br>
+        <input type="text" id="title"><br><br>
+        <label style="font-size: 18px;">Text</label><br>
+        <textarea id="content" style="resize: vertical; height: 60px; width: 20%;"></textarea><br><br>
+        <button onclick="createPaste()">Upload!</button>
+    </body>
+</html>
